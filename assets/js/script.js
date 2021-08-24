@@ -1,14 +1,13 @@
 (function(){
-    // Functions
+    // Function
     function buildQuiz(){
 
       const output = [];
   
-      // for each question...
       myQuestions.forEach(
         (currentQuestion, questionNumber) => {
   
-          // variable to store the list of possible answers
+          // variable to store the list of answers
           const answers = [];
   
           for(letter in currentQuestion.answers){
