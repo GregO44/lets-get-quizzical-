@@ -11,12 +11,14 @@ body {
 
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
     font-weight: 300;
     margin: 0px;
     padding: 10px;
     font-size: 20px;
     background-color: rgb(153, 108, 108);
-    color: rgb(255, 255, 255);
+    color: rgb(165, 212, 146);
+    background-image: url("../images/quizart.jpg");
 }
 
 .question {
@@ -41,3 +43,8 @@ button:hover {
 	background-color: rgb(170, 162, 51);
 }
 
+#quiz-questions {
+    text-align: center;
+    background-image: url("../images/quizart.jpg");
+    overflow:auto;
+}
