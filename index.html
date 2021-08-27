@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
 
     <!--font awesome and google fonts-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -11,18 +12,22 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Get Quizzical!</title>
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
 </head>
 <body>
     
     <h1>Lets get Quizzical!</h1>
-<div class="quiz-container">
-  <div id="quiz"></div>
+<div align="left" class ="px-2" class="quiz-container">
+  <div id="quiz"> </div>
 </div>
 
-<button id="previous">Previous Question</button>
-<button id="next">Next Question</button>
-<button id="submit">Submit</button>
+<div class="row justify-content-center">
+<button type="button" class="btn btn-primary" id="previous">Previous Question</button>
+
+<button type="button" class="btn btn-dark" id="next">Next Question</button>
+<button type="button" class="btn btn-dark" id="submit">Submit</button>
+</div>
 
 <div id="results"></div>
 

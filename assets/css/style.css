@@ -35,17 +35,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-button {
-    font-family: 'Open Sans', sans-serif;
-	font-size: 22px;
-	background-color: rgb(58, 153, 34);
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
-}
+
 
 button:hover {
 	background-color: rgb(170, 162, 51);
