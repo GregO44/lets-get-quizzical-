@@ -1,5 +1,5 @@
 (function(){
-    // Function
+  
     function buildQuiz(){
 
       const output = [];
@@ -7,7 +7,6 @@
       myQuestions.forEach(
         (currentQuestion, questionNumber) => {
   
-          // variable to store the list of answers
           const answers = [];
   
           for(letter in currentQuestion.answers){
@@ -119,6 +118,33 @@
           c: "Gin",
         },
         correctAnswer: "b"
+      },
+      {
+        question: "What is the capital of New Zealand?",
+        answers: {
+          a: "New Jersey",
+          b: "Wellington",
+          c: "Auckland",
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: "In which part of your body would you find the cruciate ligament?",
+        answers: {
+          a: "Neck",
+          b: "Arm",
+          c: "Knee",
+        },
+        correctAnswer: "c"
+      },
+      {
+        question: "In what US State is the city Nashville?",
+        answers: {
+          a: "Tennessee",
+          b: "Kentucky",
+          c: "Louisiana",
+        },
+        correctAnswer: "a"
       }
     ];
   

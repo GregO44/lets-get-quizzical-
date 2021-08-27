@@ -1,21 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
 body {
 	font-size: 20px;
-	font-family: 'Work Sans', sans-serif;
-	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	color: #3a3a3a;
     font-weight: 300;
     text-align: center;
-    background-color: #f8f6f0;
+    background-color: #fafafa;
 }
 
 h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
     margin: 0px;
     padding: 10px;
     font-size: 20px;
-    background-color: #444;
-    color: #fff;
+    background-color: rgb(153, 108, 108);
+    color: rgb(255, 255, 255);
 }
 
 .question {
@@ -35,9 +36,9 @@ h1 {
 }
 
 button {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	font-size: 22px;
-	background-color: #279;
+	background-color: rgb(58, 153, 34);
 	color: #fff;
 	border: 0px;
 	border-radius: 3px;
@@ -47,5 +48,6 @@ button {
 }
 
 button:hover {
-	background-color: #38a;
+	background-color: rgb(170, 162, 51);
 }
+
