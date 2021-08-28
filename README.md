@@ -1,5 +1,5 @@
 ## Lets Get Quizzical!
-### Let's get Quizzical is an interactive quiz site, where users can go through several questions, with multiple choice questions and the aim to complete all correctly. The site will test the users knowledge in general quiz questions and will prompt them to complete and submit answers to receive their final score. It's a great way to test even the most experienced quizz-goer!
+### Let's get Quizzical is an interactive quiz site, where users can go through several questions, with multiple choice answers and the aim to complete all correctly. The site will test the users in general knowledge and will prompt them to complete and submit answers to receive their final score. It's a great way to test even the most experienced quizz-goer!
 
 Features
 
