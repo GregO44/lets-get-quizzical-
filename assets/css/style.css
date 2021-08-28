@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 body {
 	font-size: 20px;
@@ -10,15 +11,15 @@ body {
 }
 
 h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Rampart One', sans-serif;
+    font-style: italic;
     text-align: center;
     font-weight: 300;
     margin: 0px;
     padding: 10px;
     font-size: 20px;
-    background-color: rgb(153, 108, 108);
-    color: rgb(165, 212, 146);
-    background-image: url("../images/quizart.jpg");
+    background-color: rgb(241, 172, 42);
+    color: #3a3a3a;
 }
 
 .question {
@@ -37,8 +38,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
 button:hover {
 	background-color: rgb(170, 162, 51);
 }
@@ -46,5 +45,27 @@ button:hover {
 #quiz-questions {
     text-align: center;
     background-image: url("../images/quizart.jpg");
-    overflow:auto;
+    background-size: contain;
+}
+
+#results {
+    background: font-family:'Rampart One', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(241, 172, 42);
+    color: #3a3a3a;
+}
+
+#buttons {
+    background: font-family:'Rampart One', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(241, 172, 42);
+    color: #3a3a3a;
 }
