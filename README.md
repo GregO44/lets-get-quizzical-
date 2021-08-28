@@ -8,22 +8,29 @@ Features
 
 ### Featured on the main page, the fully responsive header bar inidicates the sites name and theme with icons to note the context.
 
-! Header image
+![Header](assets/images/header.png "Header")
 
 ## Questions
 
 ### The questions are prompted below in a linear fashion, with multple choice answers listed below for ease of use. There is an image laid over the back of the screen with multiple emoticons which represent the frustrations or happiness a user can feel, depending on their results!
 
-## Previous/Next Questions section
+![Questions](assets/images/questions.png "Questions")
+
+## Previous/Next Questions
 ### This section will allow users to browse between questions, allowing them easily navigate the quiz.
 
-! Previous/Next Questions image
+![Buttons](assets/images/buttons.png "Buttons")
 
 ## Submit
 
-### This section will allow users to submit their answers once completed and when selected, will highlight correct answers as green and non correct as red. It will also outline the score achieved below in an 'X' out of 'X' type log.
+### This section will allow users to submit their answers once completed and when selected, will highlight correct answers as green and non correct as red.
 
-! Submit image
+![Answers colors ](assets/images/answer-colours.png "answer-colours")
+
+## Results
+### This section will confirm the users score once completed.
+
+![results](assets/images/results.png "Results")
 
 ## Features Left to Implement
 ### Further questions
