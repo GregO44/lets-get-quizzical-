@@ -12,7 +12,7 @@ Features
 
 ## Questions
 
-### The questions are prompted below in a linear fashion, with multple choice answers listed below for ease of use. There is an image laid over the back of the screen with multiple emoticons which represent the frustrations or happiness a user can feel, depending on their results!
+### The questions are prompted below in a linear fashion, with multple choice answers listed below for ease of use. There is an image laid over the back of the screen outlining the theme of the site.
 
 ![Questions](assets/images/questions.png "Questions")
 
@@ -40,7 +40,7 @@ Features
 
 ### Testing
 
-### In testing the site, I started by ensuring all pages were linked together and working at project level, checking to ensure images, icons, fonts, script and styling were being applied as intended. I then checked all questions to ensure answers were popluating correctly. I subsequently tested the next question/previous question and submit button to ensure the function was working. Lastly I checked that all media queries were working as required before passing the code through official validators for errors.
+### In testing the site, I started by ensuring all pages were linked together and working at project level, checking to ensure images, icons, fonts, script and styling were being applied as intended. I then checked all questions to ensure answers were popluating correctly. I subsequently tested the next question/previous question and submit button to ensure the function was working. Lastly I checked that all media queries were working as required, before passing the code through official validators for errors.
 
 ## Validator Testing
 ### HTML
@@ -53,7 +53,7 @@ Features
 ### No errors were found when passing through the official JSHint validator.
 
 ## Unfixed Bugs
-#### Gap between H1 and banner was a bit frustrating to try and fill. I would have also liked the questions to appear in a single form as the script was loaded in a loop, rather than have all questions appear on the page in one single flow. Time was limited with this attempt and I decided to leave it working rather than submit without function.
+#### I would have liked the questions to appear in a single form as the script was loaded in a loop, rather than have all questions appear on the page in one single flow. Time was limited with this attempt and I decided to leave it working rather than submit without function.
 
 ## Deployment
 #### The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -69,4 +69,4 @@ Features
 ### Bootstrap for styling and media queries
 
 ## Media
-### The image used on the main page is from https://edu.rsc.org/feature/the-grand-end-of-term-quiz/4012769.article
+### The background image is from https://michaelhyatt.com/science-of-pen-and-paper/
